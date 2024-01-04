@@ -40,10 +40,6 @@
 *.unity text eol=lf
 *.meta text eol=lf
 
-git add .gitattributes
-git commit -m "Add .gitattributes file for line-ending configuration"
-git push origin your-branch
-
 # Unity Binary Assets
 *.cubemap lfs
 *.unitypackage lfs
