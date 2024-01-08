@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     [SerializeField] GameObject pauseMenu;
+    [SerializeField] GameObject player;
+    [SerializeField] GameObject playerCamera;
+    [SerializeField] GameObject lilGuy;
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -23,6 +26,9 @@ public class PauseMenu : MonoBehaviour
     public void Resume()
     {
         pauseMenu.SetActive(false);
+        player.SetActive(true);
+        playerCamera.SetActive(true);
+        lilGuy.SetActive(true);
         Time.timeScale = 1;
     }
 
