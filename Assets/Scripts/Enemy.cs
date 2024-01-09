@@ -99,7 +99,6 @@ public class Enemy : MonoBehaviour
         {
             _agent.destination = GetNextDestination().transform.position;
         }
-
     }
 
     public GameObject GetNextDestination()
@@ -122,14 +121,12 @@ public class Enemy : MonoBehaviour
         }
     }
 
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
             GhostState = GhostStateMachine.CHASING_PLAYER;
         }
-
     }
 
     private void OnTriggerExit(Collider other)
