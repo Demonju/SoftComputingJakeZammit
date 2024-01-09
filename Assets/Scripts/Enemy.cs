@@ -33,7 +33,7 @@ public class Enemy : MonoBehaviour
                     _agent.speed = 3f;
                     break;
                 case GhostStateMachine.CHASING_PLAYER:
-                    _agent.speed = 5f;
+                    _agent.speed = 4f;
                     break;
                 case GhostStateMachine.FLEEING_PLAYER:
                     _agent.speed = 5f;
@@ -99,9 +99,10 @@ public class Enemy : MonoBehaviour
         {
             _agent.destination = GetNextDestination().transform.position;
         }
+
     }
 
-    private GameObject GetNextDestination()
+    public GameObject GetNextDestination()
     {
         GameObject waypoint;
         //Checking if the new waypoint is different than the previous one
@@ -115,7 +116,7 @@ public class Enemy : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Coin"))
+        if (collision.gameObject.CompareTag("Coin") || collision.gameObject.CompareTag("Powerup"))
         {
             Physics.IgnoreCollision(collision.collider, GetComponent<Collider>());
         }

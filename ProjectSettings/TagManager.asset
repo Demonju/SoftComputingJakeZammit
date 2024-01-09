@@ -8,6 +8,7 @@ TagManager:
   - MazeGeo
   - Coin
   - Waypoint
+  - Powerup
   layers:
   - Default
   - TransparentFX
