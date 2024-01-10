@@ -11,10 +11,12 @@ public class PowerUp : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            // Cancel any existing ActivatePowerUp coroutine
-            StopAllCoroutines();
+            Debug.Log("Power-up picked up by player"); // Add this line for debugging
 
+            // Trigger the fleeing behavior in enemies
             StartCoroutine(ActivatePowerUp());
+
+            // Optional: Add other power-up effects or logic
             Destroy(gameObject);
         }
     }
@@ -27,6 +29,8 @@ public class PowerUp : MonoBehaviour
         {
             if (enemy != null)
             {
+                Debug.Log("Enemy started fleeing"); // Add this line for debugging
+
                 enemy.GhostState = GhostStateMachine.FLEEING_PLAYER;
 
                 NavMeshAgent agent = enemy.GetComponent<NavMeshAgent>();
@@ -43,15 +47,22 @@ public class PowerUp : MonoBehaviour
         {
             if (enemy != null)
             {
-                enemy.GhostState = GhostStateMachine.PATROLLING_WAYPOINTS;
+                Debug.Log("Enemy stopped fleeing"); // Add this line for debugging
 
-                NavMeshAgent agent = enemy.GetComponent<NavMeshAgent>();
-                if (agent != null)
+                // Only transition back to patrolling if currently in the fleeing state
+                if (enemy.GhostState == GhostStateMachine.FLEEING_PLAYER)
                 {
-                    agent.destination = enemy.GetNextDestination().transform.position;
+                    enemy.GhostState = GhostStateMachine.PATROLLING_WAYPOINTS;
+
+                    NavMeshAgent agent = enemy.GetComponent<NavMeshAgent>();
+                    if (agent != null)
+                    {
+                        agent.destination = enemy.GetNextDestination().transform.position;
+                    }
                 }
             }
         }
     }
+
 }
 
