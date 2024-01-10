@@ -524,10 +524,50 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4428800890636439330, guid: 5cb162b077bb72f4aa22cb574deba1c9,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1822.5908
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428800890636439330, guid: 5cb162b077bb72f4aa22cb574deba1c9,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 864.0203
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428800890636439330, guid: 5cb162b077bb72f4aa22cb574deba1c9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -2.6797
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428800890636439330, guid: 5cb162b077bb72f4aa22cb574deba1c9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.3397
+      objectReference: {fileID: 0}
     - target: {fileID: 4641447829986994660, guid: 5cb162b077bb72f4aa22cb574deba1c9,
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4753815933344970473, guid: 5cb162b077bb72f4aa22cb574deba1c9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 391
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929670511173056196, guid: 5cb162b077bb72f4aa22cb574deba1c9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6078247495265350646, guid: 5cb162b077bb72f4aa22cb574deba1c9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 391
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151816637783313013, guid: 5cb162b077bb72f4aa22cb574deba1c9,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8244999749319157265, guid: 5cb162b077bb72f4aa22cb574deba1c9,
         type: 3}
@@ -545,7 +585,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1937978366039859}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4428677501263417352, guid: 5cb162b077bb72f4aa22cb574deba1c9, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cb162b077bb72f4aa22cb574deba1c9, type: 3}
