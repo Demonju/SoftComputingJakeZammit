@@ -129,6 +129,7 @@ GameObject:
   - component: {fileID: 3955068192533143506}
   - component: {fileID: 6400235195294424771}
   - component: {fileID: 853558759203566007}
+  - component: {fileID: 8613571495737687283}
   - component: {fileID: 4987661964841982932}
   - component: {fileID: 5186689055057110527}
   - component: {fileID: 1727073994034397234}
@@ -230,6 +231,18 @@ MonoBehaviour:
   MeshRoot: {fileID: 0}
   CameraFollowPoint: {fileID: 291965119950862809}
   CrouchedCapsuleHeight: 1
+--- !u!114 &8613571495737687283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3955068192533365746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e1f19a05f781e24d9a08a934495930a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!136 &4987661964841982932
 CapsuleCollider:
   m_ObjectHideFlags: 8

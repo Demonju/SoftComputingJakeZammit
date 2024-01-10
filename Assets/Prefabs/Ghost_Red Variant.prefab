@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: cd46c4c845d21ed4690627267f2edc5d, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd46c4c845d21ed4690627267f2edc5d, type: 3}
       propertyPath: m_RootOrder
@@ -197,3 +197,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f449797ded92db43a606e4f5aad4e20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
