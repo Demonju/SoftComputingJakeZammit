@@ -243,6 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e1f19a05f781e24d9a08a934495930a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathClip: {fileID: 8300000, guid: f16e8b759e0cbf64ca5637a4bcd0dfeb, type: 3}
 --- !u!136 &4987661964841982932
 CapsuleCollider:
   m_ObjectHideFlags: 8

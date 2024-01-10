@@ -6,6 +6,7 @@ using UnityEngine.UIElements.Experimental;
 public class UpdateScore : MonoBehaviour
 {
     Score scoreScript;
+    public AudioClip CoinAudio;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,7 @@ public class UpdateScore : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            AudioSource.PlayClipAtPoint(CoinAudio, transform.position);
             scoreScript.AddScore();
             Destroy(gameObject);
         }

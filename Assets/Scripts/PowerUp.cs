@@ -6,13 +6,14 @@ using UnityEngine.AI;
 public class PowerUp : MonoBehaviour
 {
     public float fleeDuration = 5f;
+    public AudioClip PowerUpAudio;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
             Debug.Log("Power-up picked up by player"); // Add this line for debugging
-
+            AudioSource.PlayClipAtPoint(PowerUpAudio, transform.position);
             // Trigger the fleeing behavior in enemies
             StartCoroutine(ActivatePowerUp());
 

@@ -1237,6 +1237,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 31439486989706135, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 90643130661215417, guid: 62e8750a4ba790648bda54558b641794,
         type: 3}
       propertyPath: m_LocalScale.z
@@ -1262,6 +1267,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -4.8725
       objectReference: {fileID: 0}
+    - target: {fileID: 736194985795480990, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 950498051878899557, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 996027548817357920, guid: 62e8750a4ba790648bda54558b641794,
         type: 3}
       propertyPath: m_LocalScale.z
@@ -1302,12 +1317,27 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 3.6303
       objectReference: {fileID: 0}
+    - target: {fileID: 1497279531193578244, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 1853498698843088732, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 2065025514928894218, guid: 62e8750a4ba790648bda54558b641794,
         type: 3}
       propertyPath: m_NavMeshData
       value: 
       objectReference: {fileID: 23800000, guid: fb367861bf3d1c240bb4f46d403da95c,
         type: 2}
+    - target: {fileID: 2248897756176104542, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 2469870697184307464, guid: 62e8750a4ba790648bda54558b641794,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1333,6 +1363,26 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 7.8297
       objectReference: {fileID: 0}
+    - target: {fileID: 2888704393772797595, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 3254815932565794046, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 3281569602050685904, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 3355020338354397899, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 3456299997830898531, guid: 62e8750a4ba790648bda54558b641794,
         type: 3}
       propertyPath: m_RootOrder
@@ -1413,6 +1463,31 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.8699
       objectReference: {fileID: 0}
+    - target: {fileID: 4438029705346635537, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 4806374750672677319, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 4968150871288976997, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 5247091022016463397, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 5792426240561287457, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 5830409877700157720, guid: 62e8750a4ba790648bda54558b641794,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -1433,16 +1508,71 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 1.8761
       objectReference: {fileID: 0}
+    - target: {fileID: 6047658259425455636, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 6058092876570034488, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 6170518263113249970, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 6287792535502225767, guid: 62e8750a4ba790648bda54558b641794,
         type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6396113511444869748, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 6639284472078164451, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 6734276316428935615, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 6825201437425750496, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 6840168534408725596, guid: 62e8750a4ba790648bda54558b641794,
         type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6879205428515523746, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 6933351991687097960, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 6953970629605555293, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 6974215381467885095, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 7750990120592789309, guid: 62e8750a4ba790648bda54558b641794,
         type: 3}
       propertyPath: m_Name
@@ -1453,6 +1583,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7869457140420357091, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 8019567558735461646, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 8109983546314254123, guid: 62e8750a4ba790648bda54558b641794,
         type: 3}
       propertyPath: m_LocalScale.z
@@ -1463,6 +1603,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 63.12
       objectReference: {fileID: 0}
+    - target: {fileID: 8423581208260651972, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 8548763564875701606, guid: 62e8750a4ba790648bda54558b641794,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1473,11 +1618,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.9742
       objectReference: {fileID: 0}
+    - target: {fileID: 8686378271626320538, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 8741672340398248057, guid: 62e8750a4ba790648bda54558b641794,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 64.03
       objectReference: {fileID: 0}
+    - target: {fileID: 9031379628682828887, guid: 62e8750a4ba790648bda54558b641794,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 8387595461105181646, guid: 62e8750a4ba790648bda54558b641794, type: 3}
@@ -2119,6 +2274,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 201952471617051954, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 251572962629249208, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 307141621269992290, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 367096369681743538, guid: a258f04e8f4ab154bb83afa99142ebc8,
         type: 3}
       propertyPath: m_LocalScale.z
@@ -2129,11 +2299,61 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 1.8767
       objectReference: {fileID: 0}
+    - target: {fileID: 374441747494072862, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 485549926205984043, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 532706825348011413, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 590808170571208790, guid: a258f04e8f4ab154bb83afa99142ebc8,
         type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 605784072673316330, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 695816104872530088, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 791696618315021801, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 840806770164481461, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 1016791751400648318, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 1309908714262432367, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 1471689385580131789, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 1590080147073459957, guid: a258f04e8f4ab154bb83afa99142ebc8,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -2149,11 +2369,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -4.931
       objectReference: {fileID: 0}
+    - target: {fileID: 2165871432831721007, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 2315238079741135228, guid: a258f04e8f4ab154bb83afa99142ebc8,
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.9677614
       objectReference: {fileID: 0}
+    - target: {fileID: 2466076585296345038, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 2742427908410004668, guid: a258f04e8f4ab154bb83afa99142ebc8,
         type: 3}
       propertyPath: m_LocalScale.z
@@ -2169,6 +2399,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.96754926
       objectReference: {fileID: 0}
+    - target: {fileID: 3137379464969830493, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 3297378562732977125, guid: a258f04e8f4ab154bb83afa99142ebc8,
         type: 3}
       propertyPath: m_LocalScale.z
@@ -2179,6 +2414,31 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -4.3384
       objectReference: {fileID: 0}
+    - target: {fileID: 3338265633732314768, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 3897498361116389933, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 3917751921587544151, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 3956384831414645346, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 3971930590209013927, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 4055799751311518781, guid: a258f04e8f4ab154bb83afa99142ebc8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2189,6 +2449,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 2.69
       objectReference: {fileID: 0}
+    - target: {fileID: 4149200472728363268, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 4282564559904451276, guid: a258f04e8f4ab154bb83afa99142ebc8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2199,11 +2464,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 2.826
       objectReference: {fileID: 0}
+    - target: {fileID: 4317329709040777193, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 4417711957504283447, guid: a258f04e8f4ab154bb83afa99142ebc8,
         type: 3}
       propertyPath: m_Name
       value: Maze_01
       objectReference: {fileID: 0}
+    - target: {fileID: 4762756857892089614, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 4801901819674061886, guid: a258f04e8f4ab154bb83afa99142ebc8,
         type: 3}
       propertyPath: m_LocalScale.z
@@ -2214,11 +2489,26 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 3.6937
       objectReference: {fileID: 0}
+    - target: {fileID: 5055202660699824796, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 5326176660791992404, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 5365933609004002560, guid: a258f04e8f4ab154bb83afa99142ebc8,
         type: 3}
       propertyPath: m_NavMeshData
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5721580141772536662, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 5819139706416270489, guid: a258f04e8f4ab154bb83afa99142ebc8,
         type: 3}
       propertyPath: m_LocalScale.z
@@ -2229,16 +2519,56 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -4.9199
       objectReference: {fileID: 0}
+    - target: {fileID: 6246602530399600541, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 6313438227878576307, guid: a258f04e8f4ab154bb83afa99142ebc8,
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.967566
       objectReference: {fileID: 0}
+    - target: {fileID: 6542036443021218702, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 6560979583711436906, guid: a258f04e8f4ab154bb83afa99142ebc8,
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.9586208
       objectReference: {fileID: 0}
+    - target: {fileID: 6624523597136679791, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 6632259687203260273, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 6694790633539006868, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 6727976423826760918, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 7730672220227652379, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 7731536979885927295, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 7910621174327162918, guid: a258f04e8f4ab154bb83afa99142ebc8,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -2254,6 +2584,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.9705
       objectReference: {fileID: 0}
+    - target: {fileID: 8669636905327148737, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 8730491095124017001, guid: a258f04e8f4ab154bb83afa99142ebc8,
         type: 3}
       propertyPath: m_RootOrder
@@ -2329,6 +2664,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 60.912
       objectReference: {fileID: 0}
+    - target: {fileID: 8887198309052344282, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 8931970895688937716, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
+    - target: {fileID: 9135952871182242449, guid: a258f04e8f4ab154bb83afa99142ebc8,
+        type: 3}
+      propertyPath: CoinAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: bd30d9b67167e9740907662860d682ca, type: 3}
     - target: {fileID: 9138693677174388628, guid: a258f04e8f4ab154bb83afa99142ebc8,
         type: 3}
       propertyPath: m_LocalScale.z

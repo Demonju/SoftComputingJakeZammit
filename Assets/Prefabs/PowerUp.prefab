@@ -164,3 +164,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fleeDuration: 5
+  PowerUpAudio: {fileID: 8300000, guid: 3a27efeab14cbfd4ebd70d0f3c372637, type: 3}
